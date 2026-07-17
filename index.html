@@ -50,6 +50,17 @@
     $('#exportBtn').onclick=()=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(items,null,2)],{type:'application/json'}));a.download='upcredit-partner-board.json';a.click()};$('#importBtn').onclick=()=>$('#file').click();$('#file').onchange=async e=>{try{const next=JSON.parse(await e.target.files[0].text());if(Array.isArray(next)){items=next;persist();render()}}catch{alert('This JSON file could not be imported.')}};render();
   </script>
   <script>
+    const SHARED_DATA_VERSION='2026-07-17-nicole-1';
+    if(localStorage.getItem('upcredit-shared-version')!==SHARED_DATA_VERSION){
+      fetch('upcredit-partner-board%20(1).json').then(r=>{if(!r.ok)throw new Error('Shared data not found');return r.json()}).then(shared=>{
+        if(Array.isArray(shared)){
+          items=shared;
+          localStorage.setItem('upcredit-board-v3',JSON.stringify(items));
+          localStorage.setItem('upcredit-shared-version',SHARED_DATA_VERSION);
+          render();
+        }
+      }).catch(()=>{});
+    }
     const STEP_SHORT=['NDA','Call','Canada','API','RFP','Risk Q','Proposal','Commercial','Contract','Legal','Compliance','Integration','Pilot'];
     row=function(x){return `<div class="cap-row" data-id="${esc(x.id)}"><div class="cap-main"><i class="cap-icon">${esc(x.name.slice(0,2).toUpperCase())}</i><div><strong>${esc(x.name)}</strong><small>${esc(x.owner)}</small></div></div><div class="vendor-list">${x.vendors.length?x.vendors.map(v=>{const done=STEPS.filter(s=>v.checks?.[s]).length;return `<div class="vendor-line"><div class="vendor-name"><b>${esc(v.name)}</b><span>${esc(v.note)}</span></div><div><div class="node-strip">${STEPS.map((s,i)=>`<span class="node ${v.checks?.[s]?'done':''}" title="${esc(s)}">${esc(STEP_SHORT[i])}</span>`).join('')}</div><div class="node-summary"><span><i class="key-dot done"></i>Complete</span><span><i class="key-dot"></i>Pending</span><b>${done}/13</b></div></div></div>`}).join(''):'<span class="count">No vendors yet</span>'}</div><div><span class="status-pill ${x.status==='At risk'?'risk':x.status==='Blocked'?'blocked':''}">${esc(x.status)}</span></div><div class="next"><strong>${esc(x.decision)}</strong><small>${fmt(x.due)}</small></div></div>`};
     render();

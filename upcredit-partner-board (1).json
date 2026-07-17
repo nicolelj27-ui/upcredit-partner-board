@@ -1,0 +1,620 @@
+[
+  {
+    "id": "cap-0",
+    "name": "Acquisition",
+    "owner": "Nicole",
+    "status": "At risk",
+    "decision": "Agree commercial terms",
+    "due": "2026-07-21",
+    "vendors": [
+      {
+        "id": "v-0-0",
+        "name": "Spring",
+        "contact": "",
+        "email": "",
+        "note": "Proposal and pricing received; commercial negotiation",
+        "checks": {
+          "NDA": true,
+          "Discovery Call": true,
+          "Data Residency & Access Canada confirmation": true,
+          "API Doc Received": false,
+          "RFP sent": true,
+          "UpCredit Risk Q received": false,
+          "Proposal Received": true,
+          "Commercial Discussion": true,
+          "Contract Negotiation": false,
+          "Legal Review": false,
+          "Compliance Review": false,
+          "Integration Discussion": false,
+          "Pilot Ready": false
+        }
+      },
+      {
+        "id": "v-0-1",
+        "name": "ClearScore",
+        "contact": "",
+        "email": "",
+        "note": "C$300 per funded loan; contract received",
+        "checks": {
+          "NDA": false,
+          "Discovery Call": true,
+          "Data Residency & Access Canada confirmation": true,
+          "API Doc Received": true,
+          "RFP sent": true,
+          "UpCredit Risk Q received": false,
+          "Proposal Received": true,
+          "Commercial Discussion": false,
+          "Contract Negotiation": true,
+          "Legal Review": false,
+          "Compliance Review": false,
+          "Integration Discussion": false,
+          "Pilot Ready": false
+        }
+      },
+      {
+        "id": "v-0-2",
+        "name": "Borrowell",
+        "contact": "",
+        "email": "",
+        "note": "C$50 per application; tiered pricing pending",
+        "checks": {
+          "NDA": true,
+          "Discovery Call": true,
+          "Data Residency & Access Canada confirmation": true,
+          "API Doc Received": false,
+          "RFP sent": true,
+          "UpCredit Risk Q received": false,
+          "Proposal Received": true,
+          "Commercial Discussion": false,
+          "Contract Negotiation": false,
+          "Legal Review": false,
+          "Compliance Review": false,
+          "Integration Discussion": false,
+          "Pilot Ready": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "cap-1",
+    "name": "Bureau",
+    "owner": "Wanwan",
+    "status": "At risk",
+    "decision": "Choose bureau",
+    "due": "2026-07-21",
+    "vendors": [
+      {
+        "id": "v-1-0",
+        "name": "TransUnion",
+        "contact": "",
+        "email": "",
+        "note": "RFP sent; API received; proposal pending",
+        "checks": {
+          "NDA": true,
+          "Discovery Call": true,
+          "Data Residency & Access Canada confirmation": true,
+          "API Doc Received": true,
+          "RFP sent": true,
+          "UpCredit Risk Q received": false,
+          "Proposal Received": false,
+          "Commercial Discussion": false,
+          "Contract Negotiation": false,
+          "Legal Review": false,
+          "Compliance Review": false,
+          "Integration Discussion": false,
+          "Pilot Ready": false
+        }
+      },
+      {
+        "id": "v-1-1",
+        "name": "Equifax",
+        "contact": "",
+        "email": "",
+        "note": "Onboarding compliance review; proposal pending",
+        "checks": {
+          "NDA": true,
+          "Discovery Call": true,
+          "Data Residency & Access Canada confirmation": true,
+          "API Doc Received": true,
+          "RFP sent": true,
+          "UpCredit Risk Q received": false,
+          "Proposal Received": false,
+          "Commercial Discussion": false,
+          "Contract Negotiation": false,
+          "Legal Review": false,
+          "Compliance Review": false,
+          "Integration Discussion": false,
+          "Pilot Ready": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "cap-2",
+    "name": "Instant Banking Verification",
+    "owner": "Wanwan",
+    "status": "At risk",
+    "decision": "Select provider",
+    "due": "2026-07-21",
+    "vendors": [
+      {
+        "id": "v-2-0",
+        "name": "Flinks",
+        "contact": "",
+        "email": "",
+        "note": "Proposal and pricing received; commercial discussion WIP",
+        "checks": {
+          "NDA": true,
+          "Discovery Call": true,
+          "Data Residency & Access Canada confirmation": true,
+          "API Doc Received": true,
+          "RFP sent": true,
+          "UpCredit Risk Q received": false,
+          "Proposal Received": true,
+          "Commercial Discussion": true,
+          "Contract Negotiation": false,
+          "Legal Review": false,
+          "Compliance Review": false,
+          "Integration Discussion": false,
+          "Pilot Ready": false
+        }
+      },
+      {
+        "id": "v-2-1",
+        "name": "Plaid",
+        "contact": "",
+        "email": "",
+        "note": "Demo and pricing scheduled",
+        "checks": {
+          "NDA": false,
+          "Discovery Call": true,
+          "Data Residency & Access Canada confirmation": false,
+          "API Doc Received": true,
+          "RFP sent": true,
+          "UpCredit Risk Q received": false,
+          "Proposal Received": false,
+          "Commercial Discussion": false,
+          "Contract Negotiation": false,
+          "Legal Review": false,
+          "Compliance Review": false,
+          "Integration Discussion": false,
+          "Pilot Ready": false
+        }
+      },
+      {
+        "id": "v-2-2",
+        "name": "Inverite",
+        "contact": "",
+        "email": "",
+        "note": "Proposal pending",
+        "checks": {
+          "NDA": false,
+          "Discovery Call": false,
+          "Data Residency & Access Canada confirmation": false,
+          "API Doc Received": false,
+          "RFP sent": true,
+          "UpCredit Risk Q received": false,
+          "Proposal Received": false,
+          "Commercial Discussion": false,
+          "Contract Negotiation": false,
+          "Legal Review": false,
+          "Compliance Review": false,
+          "Integration Discussion": false,
+          "Pilot Ready": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "cap-3",
+    "name": "KYC & Fraud",
+    "owner": "Wanwan",
+    "status": "At risk",
+    "decision": "Shortlist to two",
+    "due": "2026-07-24",
+    "vendors": [
+      {
+        "id": "v-3-0",
+        "name": "Entrust / Onfido",
+        "contact": "",
+        "email": "",
+        "note": "Discovery scheduled; Canada-only access confirmed",
+        "checks": {
+          "NDA": false,
+          "Discovery Call": true,
+          "Data Residency & Access Canada confirmation": true,
+          "API Doc Received": true,
+          "RFP sent": false,
+          "UpCredit Risk Q received": false,
+          "Proposal Received": false,
+          "Commercial Discussion": false,
+          "Contract Negotiation": false,
+          "Legal Review": false,
+          "Compliance Review": false,
+          "Integration Discussion": false,
+          "Pilot Ready": false
+        }
+      },
+      {
+        "id": "v-3-1",
+        "name": "Trulioo",
+        "contact": "",
+        "email": "",
+        "note": "Introduction complete; residency confirmation pending",
+        "checks": {
+          "NDA": false,
+          "Discovery Call": true,
+          "Data Residency & Access Canada confirmation": false,
+          "API Doc Received": false,
+          "RFP sent": false,
+          "UpCredit Risk Q received": false,
+          "Proposal Received": false,
+          "Commercial Discussion": false,
+          "Contract Negotiation": false,
+          "Legal Review": false,
+          "Compliance Review": false,
+          "Integration Discussion": false,
+          "Pilot Ready": false
+        }
+      },
+      {
+        "id": "v-3-2",
+        "name": "Alloy",
+        "contact": "",
+        "email": "",
+        "note": "Product-fit and data-residency checks",
+        "checks": {
+          "NDA": false,
+          "Discovery Call": true,
+          "Data Residency & Access Canada confirmation": false,
+          "API Doc Received": false,
+          "RFP sent": false,
+          "UpCredit Risk Q received": false,
+          "Proposal Received": false,
+          "Commercial Discussion": false,
+          "Contract Negotiation": false,
+          "Legal Review": false,
+          "Compliance Review": false,
+          "Integration Discussion": false,
+          "Pilot Ready": false
+        }
+      },
+      {
+        "id": "v-1784299391739",
+        "name": "LexisNexis",
+        "contact": "",
+        "email": "",
+        "note": "",
+        "checks": {
+          "NDA": false,
+          "Discovery Call": true,
+          "Data Residency & Access Canada confirmation": true,
+          "API Doc Received": false,
+          "RFP sent": false,
+          "UpCredit Risk Q received": false,
+          "Proposal Received": false,
+          "Commercial Discussion": false,
+          "Contract Negotiation": false,
+          "Legal Review": false,
+          "Compliance Review": false,
+          "Integration Discussion": false,
+          "Pilot Ready": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "cap-4",
+    "name": "Payment",
+    "owner": "Nicole",
+    "status": "In progress",
+    "decision": "Set negotiation ceiling",
+    "due": "2026-07-21",
+    "vendors": [
+      {
+        "id": "v-4-0",
+        "name": "ZumRails",
+        "contact": "",
+        "email": "",
+        "note": "Pricing and sandbox received; negotiation",
+        "checks": {
+          "NDA": false,
+          "Discovery Call": true,
+          "Data Residency & Access Canada confirmation": true,
+          "API Doc Received": true,
+          "RFP sent": false,
+          "UpCredit Risk Q received": false,
+          "Proposal Received": true,
+          "Commercial Discussion": true,
+          "Contract Negotiation": true,
+          "Legal Review": false,
+          "Compliance Review": false,
+          "Integration Discussion": false,
+          "Pilot Ready": false
+        }
+      },
+      {
+        "id": "v-4-1",
+        "name": "VoPay",
+        "contact": "",
+        "email": "",
+        "note": "Quotation pending",
+        "checks": {
+          "NDA": true,
+          "Discovery Call": true,
+          "Data Residency & Access Canada confirmation": false,
+          "API Doc Received": true,
+          "RFP sent": false,
+          "UpCredit Risk Q received": false,
+          "Proposal Received": false,
+          "Commercial Discussion": false,
+          "Contract Negotiation": false,
+          "Legal Review": false,
+          "Compliance Review": false,
+          "Integration Discussion": false,
+          "Pilot Ready": false
+        }
+      },
+      {
+        "id": "v-4-2",
+        "name": "BMO",
+        "contact": "",
+        "email": "",
+        "note": "Not MVP; integration effort is high",
+        "checks": {
+          "NDA": true,
+          "Discovery Call": true,
+          "Data Residency & Access Canada confirmation": true,
+          "API Doc Received": true,
+          "RFP sent": true,
+          "UpCredit Risk Q received": false,
+          "Proposal Received": false,
+          "Commercial Discussion": false,
+          "Contract Negotiation": false,
+          "Legal Review": false,
+          "Compliance Review": false,
+          "Integration Discussion": false,
+          "Pilot Ready": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "cap-5",
+    "name": "Insurance",
+    "owner": "Nicole",
+    "status": "In progress",
+    "decision": "Provide contract feedback",
+    "due": "2026-07-24",
+    "vendors": [
+      {
+        "id": "v-5-0",
+        "name": "PSG",
+        "contact": "",
+        "email": "",
+        "note": "Reviewed contract; feedback pending",
+        "checks": {
+          "NDA": true,
+          "Discovery Call": false,
+          "Data Residency & Access Canada confirmation": true,
+          "API Doc Received": false,
+          "RFP sent": true,
+          "UpCredit Risk Q received": false,
+          "Proposal Received": true,
+          "Commercial Discussion": true,
+          "Contract Negotiation": true,
+          "Legal Review": true,
+          "Compliance Review": false,
+          "Integration Discussion": false,
+          "Pilot Ready": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "cap-6",
+    "name": "Collections",
+    "owner": "Nicole",
+    "status": "At risk",
+    "decision": "Confirm operating model",
+    "due": "2026-07-24",
+    "vendors": [
+      {
+        "id": "v-6-0",
+        "name": "Bill Gosling",
+        "contact": "",
+        "email": "",
+        "note": "Shortlisted for comparison",
+        "checks": {
+          "NDA": false,
+          "Discovery Call": true,
+          "Data Residency & Access Canada confirmation": true,
+          "API Doc Received": true,
+          "RFP sent": true,
+          "UpCredit Risk Q received": true,
+          "Proposal Received": false,
+          "Commercial Discussion": false,
+          "Contract Negotiation": false,
+          "Legal Review": false,
+          "Compliance Review": false,
+          "Integration Discussion": false,
+          "Pilot Ready": false
+        }
+      },
+      {
+        "id": "v-6-2",
+        "name": "SinglePoint",
+        "contact": "",
+        "email": "",
+        "note": "Too expensive; build in-house",
+        "checks": {
+          "NDA": true,
+          "Discovery Call": true,
+          "Data Residency & Access Canada confirmation": true,
+          "API Doc Received": true,
+          "RFP sent": true,
+          "UpCredit Risk Q received": false,
+          "Proposal Received": false,
+          "Commercial Discussion": false,
+          "Contract Negotiation": false,
+          "Legal Review": false,
+          "Compliance Review": false,
+          "Integration Discussion": false,
+          "Pilot Ready": false
+        }
+      },
+      {
+        "id": "v-1784296007391",
+        "name": "D&A",
+        "contact": "",
+        "email": "",
+        "note": "",
+        "checks": {
+          "NDA": false,
+          "Discovery Call": true,
+          "Data Residency & Access Canada confirmation": true,
+          "API Doc Received": true,
+          "RFP sent": true,
+          "UpCredit Risk Q received": false,
+          "Proposal Received": true,
+          "Commercial Discussion": false,
+          "Contract Negotiation": false,
+          "Legal Review": false,
+          "Compliance Review": false,
+          "Integration Discussion": false,
+          "Pilot Ready": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "cap-7",
+    "name": "Messaging",
+    "owner": "Nicole",
+    "status": "Blocked",
+    "decision": "Unblock Canada-only messaging",
+    "due": "2026-07-22",
+    "vendors": [
+      {
+        "id": "v-7-0",
+        "name": "CM.com / Infobip / Twilio",
+        "note": "Do not meet Canada-only access requirement",
+        "contact": "",
+        "email": "",
+        "checks": {
+          "NDA": false,
+          "Discovery Call": false,
+          "Data Residency & Access Canada confirmation": true,
+          "API Doc Received": false,
+          "RFP sent": false,
+          "UpCredit Risk Q received": false,
+          "Proposal Received": false,
+          "Commercial Discussion": false,
+          "Contract Negotiation": false,
+          "Legal Review": false,
+          "Compliance Review": false,
+          "Integration Discussion": false,
+          "Pilot Ready": false
+        }
+      },
+      {
+        "id": "v-7-1",
+        "name": "Clickatell / local vendors",
+        "note": "Under review",
+        "contact": "",
+        "email": "",
+        "checks": {
+          "NDA": false,
+          "Discovery Call": false,
+          "Data Residency & Access Canada confirmation": false,
+          "API Doc Received": false,
+          "RFP sent": false,
+          "UpCredit Risk Q received": false,
+          "Proposal Received": false,
+          "Commercial Discussion": false,
+          "Contract Negotiation": false,
+          "Legal Review": false,
+          "Compliance Review": false,
+          "Integration Discussion": false,
+          "Pilot Ready": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "cap-8",
+    "name": "Cloud",
+    "owner": "Tech Lead",
+    "status": "In progress",
+    "decision": "Confirm preferred cloud",
+    "due": "2026-08-15",
+    "vendors": [
+      {
+        "id": "v-8-0",
+        "name": "AWS",
+        "contact": "",
+        "email": "",
+        "note": "Preferred; reseller outreach required",
+        "checks": {
+          "NDA": false,
+          "Discovery Call": false,
+          "Data Residency & Access Canada confirmation": false,
+          "API Doc Received": false,
+          "RFP sent": false,
+          "UpCredit Risk Q received": false,
+          "Proposal Received": false,
+          "Commercial Discussion": false,
+          "Contract Negotiation": false,
+          "Legal Review": false,
+          "Compliance Review": false,
+          "Integration Discussion": false,
+          "Pilot Ready": false
+        }
+      },
+      {
+        "id": "v-8-1",
+        "name": "Azure",
+        "contact": "",
+        "email": "",
+        "note": "Backup option",
+        "checks": {
+          "NDA": false,
+          "Discovery Call": false,
+          "Data Residency & Access Canada confirmation": false,
+          "API Doc Received": false,
+          "RFP sent": false,
+          "UpCredit Risk Q received": false,
+          "Proposal Received": false,
+          "Commercial Discussion": false,
+          "Contract Negotiation": false,
+          "Legal Review": false,
+          "Compliance Review": false,
+          "Integration Discussion": false,
+          "Pilot Ready": false
+        }
+      },
+      {
+        "id": "v-8-2",
+        "name": "Google Cloud",
+        "contact": "",
+        "email": "",
+        "note": "Not pursued？",
+        "checks": {
+          "NDA": false,
+          "Discovery Call": false,
+          "Data Residency & Access Canada confirmation": false,
+          "API Doc Received": false,
+          "RFP sent": false,
+          "UpCredit Risk Q received": false,
+          "Proposal Received": false,
+          "Commercial Discussion": false,
+          "Contract Negotiation": false,
+          "Legal Review": false,
+          "Compliance Review": false,
+          "Integration Discussion": false,
+          "Pilot Ready": false
+        }
+      }
+    ]
+  }
+]
